@@ -6,7 +6,8 @@ const leapYears = function(YearGiven) {
     else
         if((YearGiven%4==0)&&!(YearGiven%400==0)&&!(YearGiven%100==0))
             return true;
-        else return false;
+        else return false;    if((YearGiven%4==0)&&!(YearGiven%400==0)&&!(YearGiven%100==0)) return true;
+        
 };
 
 // Do not edit below this line
